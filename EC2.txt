@@ -1,0 +1,51 @@
+
+create ec2 on that machine terminal this command should run
+
+
+
+ubuntu machine-----login as---ubuntu
+    apt update -y
+    apt upgade -y
+    apt upgrade -y
+    apt install apache2 -y
+    systemctl start apache2
+    systemctl enable apache2
+    cd /var/www/html/
+    ls
+    rm -rf index.html
+    ls
+    apt install vim
+    systemctl restart apache2
+    vi index.html
+    cat index.html
+    systemctl restart apache2
+    ia a
+    cd 
+---------------------------------------------
+amazon linux machine-----login as----ec2-user
+sudo su -
+yum update -y
+yum upgrade -y
+yum install httpd -y
+systemctl start httpd
+systemctl enable httpd
+cd /var/www/html/
+ls 
+vi index.html
+cat index.html
+systemctl restart httpd
+ip a
+
+--------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
